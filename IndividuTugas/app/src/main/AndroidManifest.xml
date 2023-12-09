@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IndividuTugas"
+        tools:targetApi="31">
+        <activity
+            android:name=".retrofit.MainActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".braintrainerapp.MainActivity"
+            android:exported="false"></activity>
+        <activity
+            android:name=".workmanager.MainActivity"
+            android:exported="false" />
+
+        <receiver
+            android:name=".alarmmanager.MainActivity$AlarmReceiver"
+            android:exported="false" />
+
+        <activity
+            android:name=".alarmmanager.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".animation.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sharedpreference.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".viewmodel.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tablayout.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bottomnavigation.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".navigationdrawer.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".toolbar.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".recyclerview.MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

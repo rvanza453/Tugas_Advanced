@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/toolbar"
+        android:title="Toolbar"/>
+
+    <item
+        android:id="@+id/recyclerView"
+        android:title="Recycler View"/>
+
+    <item
+        android:id="@+id/alarmManager"
+        android:title="Alarm Manager"/>
+
+    <item
+        android:id="@+id/animation"
+        android:title="Animation"/>
+
+    <item
+        android:id="@+id/bottomNavigation"
+        android:title="Bottom Navigation"/>
+
+    <item
+        android:id="@+id/brainTrainer"
+        android:title="Brain Trainer App"/>
+
+    <item
+        android:id="@+id/retrofit"
+        android:title="Retrofit"/>
+
+    <item
+        android:id="@+id/sharedPreference"
+        android:title="Shared Preference"/>
+
+    <item
+        android:id="@+id/tabLayout"
+        android:title="Tab Layout"/>
+
+    <item
+        android:id="@+id/viewModel"
+        android:title="View Model"/>
+
+    <item
+        android:id="@+id/workManager"
+        android:title="Work Manager"/>
+</menu>
